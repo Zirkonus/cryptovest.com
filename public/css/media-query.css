@@ -1,0 +1,1387 @@
+@media screen and (max-width: 1400px){
+    .smallBlocks .bottomInform {
+        font-size: 14px;
+    }
+    .shareImg {
+        margin-left: 0;
+    }
+    .smallBlocks .titleBlock a{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1300px){
+    .articlePage .mainContainer {
+        padding: 0 80px;
+        max-width: 1326px;
+    }
+    .leftFixButton {
+        left: -50px;
+    }
+    .smallBlocks .titleBlock a {
+        font-size: 15px;
+    }
+    .smallBlocks .bottomInform {
+        font-size: 13px;
+    }
+    .sideForm h2.formTitle img {
+        max-width: 12%;
+    }
+    .sideForm h2.formTitle {
+        padding-right: 20%;
+    }
+
+}
+@media screen and (max-width: 1200px){
+    .articlePage .mainContainer {
+        padding: 0 50px;
+    }
+    .leftFixButton {
+        display: none;
+    }
+    .articlePage .mainContainer {
+        padding: 0;
+    }
+    .authorInfoBlock.clearfix::after{
+        margin-left: 0;
+    }
+    .sideForm h2.formTitle img {
+        display: none;
+    }
+    .sideForm h2.formTitle {
+        padding-right: 15px;
+    }
+    .topBlock .timer-block {
+        margin: 0;
+    }
+
+
+}
+@media screen and (max-width: 1024px){
+    .authorBlock{
+        max-width: 100%;
+    }
+}
+/* min width 992 max width 1040 */
+@media screen and (min-width: 992px) and (max-width: 1040px){
+    .smallBlocks .titleBlock {
+        line-height: 1.1;
+        margin-top: 8px;
+    }
+    .smallBlocks .bottomInform {
+        font-size: 11px;
+        left: 130px;
+    }
+    .smallBlocks .bottomInform .shareTotal {
+        font-size: 11px;
+    }
+    .smallBlocks .titleBlock a {
+        font-size: 14px;
+    }
+    .titleLinkBlock {
+        margin-left: 130px;
+    }
+}
+@media screen and (max-width: 992px){
+    .ico-information-block .dropdown-menu {
+        position: static;
+    }
+
+    .alphabet-wrapper .alphabet .letter {
+        margin-bottom: 10px;
+    }
+
+    .icos-submit .wizard-block {
+        display: none;
+    }
+
+    .icos-submit .wizard-block.mobile-wizard {
+        display: block;
+        padding: 0px;
+        width: 120%;
+        position: relative;
+        left: -10%;
+    } 
+
+    .infiniteNewsBlock .search-blade-block {
+        display: none;
+    }
+    .hidden-lg-up #openMobileSearch {
+        top: 30px;
+    }
+    .hidden-lg-up .search-opened {
+        margin-top: 25px;
+    }
+    .icos-submit .wizard-block .wizard .step-text {
+        font-size: 15px;
+    }
+    .icos-submit #copyLink {
+        margin-top: 20px;
+    }
+   
+    .middleInfoBlock.listing .search-block.mobile {
+        display: block;
+    }
+    .middleInfoBlock.listing .search-block {
+        display: none;
+    }
+    
+ /*styles for fixed blocks on ico-profile page*/
+
+        .main.profile-page.one-ico {
+            position: relative;
+        }
+
+        .main.profile-page.one-ico .page-navigation {
+            position: static;
+            top: 0px;
+            z-index: 99;
+            background: white;
+        }
+
+        .main.profile-page.one-ico .fixed-title {
+            position: static;
+            top: 60px;
+            z-index: 99;
+            background: white;
+        }
+
+        .main.profile-page.one-ico .fixed-sidebar {
+            position: static;
+            top: 145px;
+            height: 100%;
+        }
+
+    /*end of fixed styles*/
+
+    .profile-content .main-content .related-projects {
+        padding-top: 20px;
+    }
+    .profile-content .main-content {
+        padding-top: 20px;
+    }
+    .profile-page .profile-content .right-sidebar .form-group a {
+        width: 33%;
+    }
+    .maskShadow:hover {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    .timer-block .countdown-container .countdown-value {
+        width: 70px;
+        font-size: 30px;
+    }
+    .mask:hover {
+        background: none;
+    }
+
+    .topBlock .timer-block {
+        max-width: 100%;
+    }
+
+    .navbar-light .navbar-toggler {
+        top: 50%;
+        right: 0;
+        border: none;
+        padding: 0;
+        outline: none;
+        color: #000;
+        opacity: 1;
+        margin-top: -15px;
+        z-index: 11;
+    }
+    header .navbar-brand {
+        margin: -15px 0 0 0;
+        top: 50%;
+    }
+    .navbar-collapse {
+        background: #fff;
+        z-index: 10;
+        margin-top: 80px;
+    }
+    .topSocLink{
+        position: absolute;
+        top: 50%;
+        right: 50px;
+        margin-top: -12px;
+    }
+    .topSocLink a + a{
+        margin-left: 20px;
+    }
+    .rightInfoBlock {
+        margin-top: 16px;
+    }
+    .rightInfoBlock.education {
+        margin-bottom: 0;
+    }
+    .bitcoinBlock {
+        margin-top: 16px;
+    }
+    .middleInfoBlock {
+        padding-top: 0;
+    }
+    .form-inline .help-block.with-errors ul{
+        margin:0;
+    }
+    .form-inline .help-block.with-errors {
+        bottom: 100%;
+        font-size: 12px;
+    }
+    .container {
+        width: 100%;
+    }
+    .modal .container {
+        width: 70%;
+    }
+    /* menu */
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        right: 0;
+        opacity: 0;
+        display: block;
+        width: 240px;
+        height: 100%;
+        color: #fff;
+        background-color: #34bc9d;
+        z-index: -100;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+    .navbar-collapse.collapse.show{
+        overflow-y: auto;
+        opacity: 1;
+    }
+    body .page::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        display: block;
+        background: rgba(0,0,0,0);
+        z-index: -4;
+        position: absolute;
+        top: 0;
+        left: 0;
+        -webkit-transition: background .3s;
+        -moz-transition: background .3s;
+        -ms-transition: background .3s;
+        -o-transition: background .3s;
+        transition: background .3s;
+    }
+    body.openBody .page::before{
+        z-index: 24;
+        background: rgba(0,0,0,0.7);
+        -webkit-transition: background .3s;
+        -moz-transition: background .3s;
+        -ms-transition: background .3s;
+        -o-transition: background .3s;
+        transition: background .3s;
+    }
+    .hamburger {
+        margin: 29px 14px 0 0;
+        padding: 5px;
+    }
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
+        width: 100%;
+        background: #fff;
+        padding: 0 15px;
+        margin-left: 0;
+        -webkit-transition: margin .3s, background .6s;
+        -moz-transition: margin .3s, background .6s;
+        -ms-transition: margin .3s, background .6s;
+        -o-transition: margin .3s, background .6s;
+        transition: margin .3s, background .6s;
+    }
+    .openBody header {
+        margin-left: -248px;
+        background: transparent;
+        -webkit-transition: margin .3s, background .3s;
+        -moz-transition: margin .3s, background .3s;
+        -ms-transition: margin .3s, background .3s;
+        -o-transition: margin .3s, background .3s;
+        transition: margin .3s, background .3s;
+    }
+    .mobileLogo{
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        margin-top: -13px;
+    }
+    .mobile-nav.mobile-menu{
+        right: -248px!important;
+        -webkit-transition: right .3s;
+        -moz-transition: right .3s;
+        -ms-transition: right .3s;
+        -o-transition: right .3s;
+        transition: right .3s;
+    }
+    .openBody .mobile-nav.mobile-menu{
+        right: 0!important;
+        -webkit-transition: right .3s;
+        -moz-transition: right .3s;
+        -ms-transition: right .3s;
+        -o-transition: right .3s;
+        transition: right .3s;
+    }
+    .mobileMenuLogo img{
+        max-width: 147px;
+    }
+    .hamburger .hamburger-inner {
+        height: 12px;
+        width: 18px;
+    }
+    .hamburger .bar {
+        width: 100%;
+    }
+    .hamburger .bar.bar2, .hamburger .bar.bar3 {
+        top: 5px;
+    }
+    .hamburger .bar.bar4 {
+        top: 10px;
+    }
+    .hamburger.open .bar2, .hamburger.open .bar3 {
+        height: 2px;
+    }
+    .mobile-menu .nav-link {
+        color: #3F4245;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        line-height: 22px;
+        text-transform: uppercase;
+        padding: 9px 0;
+    }
+    .mainContainer {
+        padding-top: 80px;
+    }
+    footer .mainContainer {
+        padding-top: 0;
+    }
+    .mobile-nav ul {
+        margin: 35px 0 0 0;
+        max-height: calc(100vh - 235px);
+        overflow-y: auto;
+    }
+    .bottomLinkMobileMenu{
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+        right: 15px;
+    }
+    .bottomLinkMobileMenu button.btn-primary,
+    .bottomLinkMobileMenu button.btn-primary:active{
+        height: 40px;
+        width: 100%;
+        background: linear-gradient(0deg, #FF7E2B 0%, #FBB848 100%);
+        border: none;
+        color: #FFFFFF;
+        font-family: "ProximaNova-Bold", sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 26px;
+        text-align: center;
+        margin-top: 17px;
+    }
+    .bottomLinkMobileMenu button:hover {
+        opacity: 0.9;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        -ms-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+    }
+    .bottomLinkMobileMenu h3{
+        color: #343A40;
+        font-family: "ProximaNova-Black", sans-serif;
+        font-size: 22px;
+        font-weight: 900;
+        line-height: 32px;
+        margin-bottom: 9px;
+    }
+    .bottomLinkMobileMenu a + a{
+        margin-left: 8px;
+    }
+    .dropdown-menu {
+        position: relative;
+        min-width: unset;
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+    .dropdown-menu .dropdown-item{
+        font-family: 'ProximaNova-Light', sans-serif;
+    }
+    .mobile-menu .hamburger{
+        position: relative;
+        margin: 0;
+    }
+    body.openBody > .hamburger{
+        opacity: 0;
+        -webkit-transition: opacity 0s;
+        -moz-transition: opacity 0s;
+        -ms-transition: opacity 0s;
+        -o-transition: opacity 0s;
+        transition: opacity 0s;
+    }
+    body > .hamburger{
+        opacity: 1;
+        right: 0;
+        -webkit-transition: opacity 2s;
+        -moz-transition: opacity 2s;
+        -ms-transition: opacity 2s;
+        -o-transition: opacity 2s;
+        transition: opacity 2s;
+    }
+    header .titlePage {
+        color: #AE916F;
+        font-family: 'ProximaNova-Black', sans-serif;
+        font-size: 22px;
+        font-weight: 900;
+        line-height: 32px;
+        text-align: right;
+        text-transform: lowercase;
+        margin-right: 33px;
+        margin-top: 24px;
+    }
+    .sideFormBannerBlock {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .sideForm h2.formTitle img {
+        display: none;
+    }
+    .articleBlock {
+        padding-right: 15px;
+    }
+    .articleSidebar .sideForm {
+        border: none;
+    }
+    .articleSidebar {
+        margin-top: 0;
+        padding-left: 15px;
+    }
+    .articlePage .mainContainer {
+        padding: 80px 0 0;
+    }
+    .leftFixButton {
+        left: -40px;
+    }
+    footer .footerLink a {
+        padding: 10px 10px;
+    }
+    footer .socialList a + a {
+        margin-left: 10px;
+    }
+    #leftFixButton .buttonBlock{
+        position: relative;
+    }
+    .contactBlock {
+        padding-left: 0;
+    }
+    .page {
+        padding-bottom: 0;
+    }
+    footer {
+        position: relative;
+    }
+
+    .reviews .right-block {
+        margin-top: 0px !important;
+        padding: 0;
+    }
+
+    .reviews .right-block:last-of-type {
+        display: none;
+    }
+    /*.smallBlocks .smallBlock:last-of-type {
+        display: none;
+    }*/ 
+    .upcomming-list .main-list tbody tr {
+        font-size: 12px;
+    }
+}
+/* mobile < 767 */
+@media screen and (max-width: 767px){
+    .newsParentBlock .tabs-list.list-inline .tab-element {
+        font-size: 16px;
+    }
+    .icos-submit .middleInfoBlock .inputs-wraper .button-wrapper.bottom-buttons .button-block {
+        width: 50%;
+        margin-top: 45px;
+    }
+    .icos-submit .wizard-block.mobile-wizard {
+        display: block;
+        padding: 0px;
+        width: 120%;
+        position: relative;
+        left: -10%;
+    } 
+    .icos-submit .wizard-block {
+        display: none;
+    }
+    .hidden-lg-up #openMobileSearch {
+        top: 15px;
+    }
+    .hidden-lg-up .search-opened {
+        margin-top: 10px;
+    }
+    .icos-submit .middleInfoBlock form .inputs-wraper .button-block {
+        width: 50%;
+    }
+    .icos-submit .middleInfoBlock #addLinkButton {
+        width: 175px;
+        margin: 0 auto;
+    }
+    .upcomming-icos .main-new .first-cell .star {
+        position: static;
+        display: inline-block;
+    }
+    .upcomming-icos .main-new .first-cell .featured {
+        position: static;
+        min-height: 23px;
+        display: inline-block;
+        width: 63px;
+    }
+
+    .upcomming-icos .main-new .first-cell .img {
+        margin-bottom: 5px;
+    }
+
+    .profile-content .main-content .related-projects .project {
+        width: 100%;
+    }
+
+    .listing table.dataTable tbody th, .listing table.dataTable tbody td{
+        padding: 8px 10px;
+    }
+    .listing .main-new .upcomming-list .featured {
+        position: static;
+        padding: 5px 7px;
+    }
+
+    .listing .main-new .upcomming-list .star {
+        position: static;
+    }
+
+    .topBlock .description-block .titleBlock {
+        line-height: 42px;
+        font-size: 40px;
+    }
+
+    .listing .tabs-line .tabs-list.list-inline .tab-element a {
+        font-size: 12px;
+    }
+
+    .profile-page .profile-content .right-sidebar .form-group a {
+        width: 60%;
+    }
+    .profile-page .profile-content .right-sidebar .form-group a {
+        width: 60%;
+    }
+    .dataTables_info {
+        display: none;
+    }
+    .upcomming-title .seeMoreLink {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+    }
+    .description-item-wraper {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .description-block h2 {
+        font-size: 40px;
+    }
+    .page {
+        overflow: auto;
+        padding-bottom: 0;
+    }
+    .sideFormBannerBlock {
+        margin-top: 0;
+    }
+    .sideForm h2.formTitle img {
+        display: block;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    subtitle {
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 1.2rem;
+    }
+    sub {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    h2 {
+        font-size: 28px;
+        line-height: 28px;
+        margin-bottom: 0.9rem;
+    }
+    table th,
+    table td{
+        line-height: 21px;
+    }
+    table td:first-child{
+        font-family: 'ProximaNova-Light', sans-serif;
+        font-weight: normal;
+    }
+    table tr:first-child td {
+        font-family: 'ProximaNova-Bold', sans-serif;
+        font-weight: bold;
+    }
+    .main ul li, .main ol li {
+        margin-bottom: 15px;
+    }
+    a.likeButton {
+        display: flex;
+        margin-bottom: 8px;
+    }
+    a.likeButton + a.likeButton {
+        margin-left: 0;
+    }
+    .hamburger {
+        margin: 13px 14px 0 0;
+    }
+    .mainContainer {
+        padding-top: 48px;
+    }
+    .mask:hover .topStickerBig {
+        opacity: 0;
+    }
+    .mask:hover .topSticker {
+        opacity: 1;
+    }
+    .maskShadow:hover {
+        -webkit-box-shadow: 0 0 0 1px rgba(222,226,230,1);
+        -moz-box-shadow: 0 0 0 1px rgba(222,226,230,1);
+        box-shadow: 0 0 0 1px rgba(222,226,230,1);
+    }
+    a:hover, button:hover {
+        opacity: 1;
+    }
+    .form-group.has-feedback{
+        margin-bottom: 16px;
+    }
+    footer {
+        height: auto;
+        box-shadow: none;
+        margin-top: 25px;
+        padding-bottom: 35px;
+        position: relative;
+    }
+    footer .navbar-brand{
+        text-align: center;
+    }
+    footer .socialList{
+        text-align: center!important;
+    }
+    .rotateImg img{
+        width: 35px;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+    .rotateImg{
+        margin-top: -15px;
+        margin-bottom: -25px;
+    }
+    header {
+        height: 48px;
+    }
+    .container.topBlock{
+        padding: 0;
+    }
+    .mobPad{
+        padding: 0 15px;
+    }
+    .topBlock .newsBlock.br-4,
+    .rightInfoBlock.br-4{
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+    .newsBlock .titleBlock{
+        line-height: 1.2;
+        left: 15px;
+        right: 15px;
+    }
+    .newsBlock .titleBlock a {
+        font-size: 20px;
+        line-height: 1;
+    }
+    .bottomInform {
+        padding-bottom: 8px;
+    }
+    .bitcoinGraph {
+        padding: 4px 10px;
+    }
+    .subscribeLink img {
+        margin-right: 0;
+        margin-bottom: 8px;
+        width: 20px;
+    }
+    .subscribeLink.pull-left,
+    .seeMoreLink.pull-right{
+        float: none;
+    }
+    .seeMoreLink.pull-right{
+        margin-left: 15px;
+    }
+    .subSmBlock {
+        text-align: right;
+        margin-top: 14px;
+        margin-left: -8px;
+    }
+    .middleInfoBlock h2 {
+        font-size: 36px;
+        line-height: 53px;
+    }
+    .smallBlocks .titleBlock a,
+    .newsItem .titleBlock a{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .smallBlocks .bottomInform,
+    .newsItem .bottomInform{
+        font-size: 13px;
+        bottom: 4px;
+    }
+    .smallBlock{
+        margin-bottom: 16px;
+    }
+    .subscribeBlock {
+        margin-top: 0;
+    }
+    .subscribeBlock h3 {
+        font-size: 26px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+    .middleInfoBlock {
+        padding-top: 25px;
+    }
+    footer .footerLink a {
+        font-weight: normal;
+        padding: 10px;
+        color: #868E96;
+        font-family: 'ProximaNova-Light', sans-serif;
+        white-space: nowrap;
+    }
+    footer .footerLink{
+        margin-top: 25px!important;
+        margin-bottom: 25px!important;
+    }
+    .modal .container {
+        width: 100%;
+    }
+    .popupForm .formTitle {
+        font-size: 27px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .popupForm {
+        width: 100%;
+        padding: 22px 23px 8px;
+    }
+    .newsGridBlock > .row > .col-12 .newsItem {
+        margin-top: 8px;
+        margin-bottom: 0;
+    }
+    .topBlock .row.m--8{
+        margin: 0;
+    }
+    .topBlock .row.m--8 > .col-12{
+        padding: 0;
+    }
+    .popupForm {
+        margin-top: calc((100vh - 360px)/2);
+    }
+    .newsBlock {
+        max-height: 204px;
+    }
+    .rightInfoBlock.education img{
+        /*width: auto;
+        height: 100%;*/
+    }
+    .smallBlock a.noMaskImg img,
+    .newsItem a.noMaskImg img{
+        height: auto;
+        width: 28%;
+        min-height: 96px;
+    }
+    .titleLinkBlock {
+        margin-left: 32%;
+    }
+    .smallBlock .bottomInform,
+    .smallBlocks .bottomInform,
+    .newsItem .bottomInform{
+        left: 32%;
+    }
+    .smallBlocks .titleBlock {
+        margin-top: 2%;
+        line-height: 1.4;
+        padding: 0 8px 0 0;
+    }
+    .newsItem .titleBlock {
+        margin-top: 2%;
+        line-height: 1.1;
+        padding: 0 8px 0 0;
+    }
+    .newsItem {
+        min-height: 90px;
+        border: none;
+    }
+    .newsItem .bottomInform .shareTotal {
+        font-size: 15px;
+    }
+    .newsGridBlock .shareImg {
+        margin-left: 0;
+    }
+    .newsGridBlock{
+        padding-top: 8px;
+    }
+    .smallBlocks .bottomInform .shareTotal{
+        font-size: 15px;
+    }
+    .modal {
+        padding: 0 15px;
+    }
+    .popupForm .modal-footer button {
+        right: -8px;
+    }
+    .maskImg:hover{
+        background: rgba(0,0,0,0.3);
+    }
+    .topNewsBlock .bigBlock {
+        margin-bottom: 16px;
+        min-height: 467px;
+    }
+    .sideForm h2.formTitle {
+        font-size: 26px;
+        text-align: center;
+        padding-top: 70px;
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    .sideForm .form-inline .form-group {
+        padding: 0;
+    }
+    .sideForm h2.formTitle img {
+        top: -12px;
+        right: 50%;
+        max-width: 36px;
+        margin-right: -18px;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+    .infiniteNewsBlock .bigBlock {
+        margin-top: 16px;
+    }
+    .topSmallNews .smallBlock {
+        margin-top: 0;
+    }
+    .topSmallNews .sideBanner{
+        margin-top: 0;
+    }
+    .topBlock .mask:hover{
+        background: rgba(0,0,0,0.3);
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        -ms-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+    }
+    .maskImg img {
+        min-height: 204px;
+        width: 100%;
+    }
+    .bigBlock {
+        min-height: 302px;
+        margin-top: 16px;
+    }
+    .popupForm.exitPopupForm .formTitle,
+    #followUsFormModal .popupForm.exitPopupForm .formTitle{
+        font-size: 27px;
+        line-height: 30px;
+    }
+    .leftFixButton {
+        display: none;
+        width: 100%;
+        position: fixed;
+        top: auto;
+        bottom: 0;
+        left: 0;
+        margin-left: 0;
+        z-index: 10;
+        -webkit-transition: margin .3s;
+        -moz-transition: margin .3s;
+        -ms-transition: margin .3s;
+        -o-transition: margin .3s;
+        transition: margin .3s;
+    }
+    .leftFixButton .buttonBlock{
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background: #fff;
+        padding: 0 15px;
+        height: 50px;
+        -webkit-box-shadow: inset 0 1px 0 0 #FF8931;
+        -moz-box-shadow: inset 0 1px 0 0 #FF8931;
+        box-shadow: inset 0 1px 0 0 #FF8931;
+    }
+    .leftFixButton a {
+        margin-bottom: 0;
+        max-width: 30px;
+    }
+    .leftFixButton button{
+        background: linear-gradient(0deg, #FF7E2B 0%, #FBB848 100%);
+        height: 32px;
+        width: 125px;
+        color: #FFFFFF;
+        font-size: 15px;
+        line-height: 22px;
+        font-family: 'ProximaNova-Regular', sans-serif;
+        padding: 6px;
+        border: none;
+    }
+    .leftFixButton button:active {
+        background: linear-gradient(0deg, #FF7E2B 0%, #FBB848 100%);
+        border: none;
+    }
+    .openBody .leftFixButton{
+        margin-left: -248px;
+        -webkit-transition: margin .3s;
+        -moz-transition: margin .3s;
+        -ms-transition: margin .3s;
+        -o-transition: margin .3s;
+        transition: margin .3s;
+    }
+    .articleBody table thead:before,
+    .articleBody table::after{
+        margin:0;
+    }
+    .articleBody table + p{
+        margin-top: 2rem;
+    }
+    .articleBody p{
+        margin-bottom: 1.1rem;
+    }
+    .authorInfoBlock.clearfix::after{
+        height: 0;
+        box-shadow: none;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    .sideForm {
+        border: none;
+    }
+    .mainArticleBlock h1 {
+        margin-bottom: 1.1rem;
+        margin-top: 1.5rem;
+    }
+    .mainArticleBlock subtitle {
+        margin-bottom: 0.7rem;
+    }
+    .mainArticleBlock .authorInfoBlock span,
+    .mainArticleBlock .authorInfoBlock a {
+        font-family: 'ProximaNova-Light', sans-serif;
+        display: inline-block;
+    }
+    img.authorAvatar {
+        margin-top: 15px;
+    }
+    .mainArticleBlock .authorInfoBlock .separator {
+        margin-left: 10px;
+    }
+    .mainArticleBlock .authorInfoBlock .pull-right{
+        float: left;
+        margin-top: -20px;
+        margin-left: 45px;
+    }
+    .mainArticleBlock .authorInfoBlock {
+        margin-top: 1.3rem;
+        margin-bottom: 2.0rem;
+    }
+    .articleBody h2 {
+        margin-top: 1.7rem;
+        font-size: 32px;
+        line-height: 42px;
+    }
+    p img {
+        padding: 0.5rem 0 2.2rem;
+    }
+    .titleCommentsBlock {
+        font-size: 30px;
+        line-height: 44px;
+        margin-top: 3rem;
+    }
+    .commentsForm textarea.form-control {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .commentsItem {
+        padding: 20px 20px 10px;
+    }
+    .commentsList {
+        margin-top: 0;
+    }
+    .articleSidebar .sideForm h2.formTitle img {
+        top: -7px;
+    }
+    .articleSidebar .sideForm h2.formTitle {
+        padding-top: 75px;
+    }
+    .articleSidebar .sideForm{
+        padding: 27px 0 8px;
+    }
+    .articleSidebar .sideForm .form-inline .form-group {
+        margin-bottom: 8px;
+    }
+    .sideBanner {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .latestNewsBlock  .seeMoreLink.pull-right {
+        margin-left: 0;
+    }
+    .latestNewsBlock .subSmBlock {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .latestNewsBlock .smallBlocks .bottomInform{
+        font-size: 15px;
+    }
+    .latestNewsBlock .bigBlock {
+        min-height: 326px;
+    }
+    .articlePage footer .mainContainer {
+        padding-top: 0;
+    }
+    .articlePage footer {
+        padding-bottom: 130px;
+    }
+    .latestNewsBlock .smallBlock {
+        margin-bottom: 16px;
+    }
+    .articleBlock {
+        padding-right: 15px;
+    }
+    .articleSidebar {
+        padding-left: 15px;
+    }
+    header .titlePage{
+        margin-top: 8px;
+    }
+    .articlePage .mainContainer {
+        padding: 48px 0 0;
+    }
+    #contactForm .form-control {
+        margin-top: 0;
+    }
+    #contactForm .form-group.has-feedback {
+        margin-bottom: 8px;
+    }
+    #contactForm {
+        margin-top: 28px;
+    }
+    #contactForm textarea.form-control {
+        margin-bottom: 0;
+    }
+    #contactForm button {
+        max-width: 100%;
+    }
+    .contactBlock {
+        padding-top: 5px;
+    }
+    .contactBlock .socialBlock {
+        margin-bottom: 35px;
+    }
+    .contactPage .page > .mainContainer {
+        padding-top: 65px;
+    }
+    .authorBlock {
+        max-width: none;
+        margin-bottom: 3.3rem;
+    }
+    .authorBlock img.face {
+        margin: 0 auto;
+        display: block;
+    }
+    .mainContainer .container.authorNewsBlock {
+        padding-top: 30px;
+    }
+    .authorBlock h2 {
+        margin-top: 2.5rem;
+    }
+    /*.bigBlocks .bottomInform {*/
+            /*left: 32%;*/
+    /*}*/
+}
+@media screen and (max-width: 910px){
+    .icos-submit .wizard-block .wizard .step-text {
+        font-size: 13px;
+    }
+    .p--8 {
+        padding-bottom:15px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .icos-submit .middleInfoBlock .project-team-block .members-table-list th,
+    .icos-submit .middleInfoBlock .project-team-block .members-table-list td {
+        font-size: 12px;
+        padding: 5px 5px;
+    }
+    .profile-content .main-content .related-projects .project {
+        width: 100%;
+    }
+    .one-ico .profile-content .fixed-title .smartre-text .mobile-break {
+        display: block;
+    }
+    .listing .upcomming-list .row-element .star img {
+        width: 17px;
+        height: 23px;
+        
+    }
+
+    .description-block h2 {
+        font-size: 31px;
+    }
+
+    .newsParentBlock .tabs-list.list-inline .tab-element {
+        font-size: 9px;
+        letter-spacing: 0.9px;
+    }
+    .newsParentBlock .tabs-list.list-inline .tab-element {
+        width: 23.9%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .middleInfoBlock.listing .search-block .dropdown-menu li {
+        font-size: 13px;
+    }
+
+    .middleInfoBlock.listing .search-block .dropdown-menu {
+        border: 1px solid #dee2e6;
+    }
+
+    #show-search-mobile {
+        padding-top: 7px;
+        margin-bottom: 0px;
+    }
+
+    .listing .upcomming-list .main-list th {
+        font-size: 10px;
+    }
+
+    .listing table.dataTable th, .listing table.dataTable tbody td {
+        padding: 8px 4px;
+    }
+
+    .listing table .first-cell {
+        vertical-align: top;
+        padding-top: 7%;
+    }
+
+    /*.star {
+        position: absolute;
+        right: 7%;
+        top: 4%;
+    }*/
+    .upcomming-list tr td a {
+        margin-left: 0;
+    }
+
+    .first-cell .featured {
+        top: 50%;
+        right: 40%;
+    }
+
+    .first-cell .star {
+        top: 35%;
+    }
+}
+/* mobile < 360 */
+@media screen and (max-width: 360px){
+    
+
+    .topBlock .timer-block {
+        max-width: 330px;
+        margin-left: 15px;
+        border-radius: 5px;
+    }
+
+    .timer-block .smartre-text {
+        width: calc(100% - 110px);
+    }
+
+    .newsParentBlock .tabs-list.list-inline .tab-element {
+        font-size: 9px;
+        letter-spacing: 0.1px;
+    }
+    
+
+    .bitcoinBlock .bitcoinGraph .chart-block .chart-block-title, 
+    .bitcoinBlock .bitcoinGraph .bitcoinCostBlock .normal {
+        font-size: 12px;
+    }     
+
+    .profile-page .profile-content .right-sidebar .form-group a {
+        width: 100%;
+    }
+    .profile-content .main-content .related-projects .project {
+        width: 100%;
+    }
+    .profile-content .main-content .titleBlock {
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .profile-page .profile-content .right-sidebar {
+        padding: 0;
+    }
+    .profile-page .profile-content .smartre .smartre-text .token-sale {
+        font-size: 30px;
+    }
+    .profile-page .col-lg-12 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .profile-content .main-content .comments .commentsForm {
+        width: 100%;
+    }
+
+    .profile-content .main-content .comments .commentsList {
+        width: 100%;
+    }
+    .timer-block .sun {
+        display: none;
+    }
+    .main-new table th {
+        font-size: 12px;
+    }
+    .listing table td {
+        font-size: 13px;
+    }
+    .timer-block img {
+        display: none;
+    }
+    .bigBlocks .main-new {
+        padding: 0;
+    }
+    .bitcoinGrid .titleBlock a {
+        font-size: 17px;
+    }
+    .bitcoinGrid .bitcoinValue {
+        font-size: 23px;
+    }
+    .bitcoinGrid .bitcoinCostBlock .normal {
+        font-size: 10px;
+    }
+    .smallBlock .titleBlock, .smallBlocks .titleBlock {
+        line-height: 1;
+    }
+    .smallBlock .titleBlock a, .smallBlocks .titleBlock a {
+        font-size: 13px !important;
+        line-height: 15px !important;
+    }
+    .smallBlock .bottomInform, .smallBlocks .bottomInform {
+        font-size: 10px;
+    }
+    .smallBlock .bottomInform .shareTotal, .smallBlocks .bottomInform .shareTotal {
+        font-size: 11px;
+    }
+    .topSmallNews .smallBlocks .titleBlock a{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .topSmallNews .smallBlocks .bottomInform {
+        font-size: 13px;
+    }
+    .topSmallNews .smallBlocks .bottomInform .shareTotal {
+        font-size: 13px;
+    }
+    .articleSidebar h2.titleBlock {
+        font-size: 28px;
+    }
+    .latestNewsBlock.smallBlocks .titleBlock a {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .latestNewsBlock.smallBlocks .bottomInform {
+        font-size: 13px;
+    }
+    .latestNewsBlock.smallBlocks .bottomInform .shareTotal {
+        font-size: 13px;
+    }
+    .bigBlocks .titleBlock a {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .timer-block .countdown-container .countdown-value{
+        font-size: 25px;
+        width: 55px;
+        height: 50px;
+    }
+    .description-block h2 {
+        font-size: 27px;
+    }
+}
+@media screen and (max-width: 330px){
+    .newsParentBlock .tabs-list.list-inline .tab-element {
+        font-size: 8px;
+    }
+    .newsParentBlock.listing .main-new .main-list {
+        width: 310px;
+    } 
+    .newsParentBlock.listing table td {
+        padding: 9px 5px;
+        /* width: 6%; */
+    }
+    .topBlock .timer-block {
+        margin-left: 11px;
+        max-width: 300px;
+        border-radius: 5px;
+    }
+
+    .bitcoinBlock .bitcoinGraph .chart-block .chart-block-title {
+        display: none;
+    }
+    .popupForm.exitPopupForm button.btn-primary {
+        font-size: 17px;
+    }
+    .ico-name {
+        text-align: center;
+    }
+}
+
+/*for safary*/
+
+@media (min-width: 992px) {
+    .col-lg-7.description-block {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 58.333333%;
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 56.333333%;
+        max-width: 58.333333%;
+    }
+}

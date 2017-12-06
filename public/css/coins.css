@@ -1,0 +1,545 @@
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr th {
+	box-shadow: inset 0 -2px 0 0 #FF8931;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	text-align: center;
+    font-family: 'ProximaNova-Regular', sans-serif;
+    font-weight: 500;
+}
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr td {
+	padding-left: 0px;
+}
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr .first-cell a{
+	margin-left: 0px;
+	line-height: 35px;
+}
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(1) {
+	text-align: center;
+}
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr th:nth-child(1),
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(1) {
+	width: 8%;
+}
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr th:nth-child(2),
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(2) {
+	width: 20%;
+    text-align: left;
+}
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr th:nth-child(3),
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(3) {
+	width: 6%;
+	text-align: right;
+	color: #adb5bd;
+}
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr th:nth-child(4),
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(4) {
+	width: 14%;
+	text-align: right;
+}
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr th:nth-child(5),
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(5) {
+	width: 11%;
+	text-align: right;
+}
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr th:nth-child(6),
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(6) {
+	width: 12%;
+	text-align: right;
+}
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr th:nth-child(7),
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(7) {
+	width: 13%;
+	text-align: right;
+}
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr th:nth-child(8),
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(8) {
+	width: 15%;
+	text-align: right;
+}
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr th:nth-child(9),
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(9) {
+	width: 15%;
+	text-align: right;
+}
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr .first-cell img {
+	width: 35px;
+	height: 35px;
+    object-fit: cover;
+}
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(3) {
+	width: 6%;
+	text-align: center;
+	color: #adb5bd;
+	font-family: 'ProximaNova-Regular', sans-serif;
+}
+.listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(5) {
+    font-family: 'ProximaNova-Black', sans-serif;
+}
+.search-block .search #show-search {
+	cursor: pointer;
+}
+.coins-list-table .upcomming-list #main-table-coins .first-cell .img {
+	margin-right: 5px;
+} 
+.coins-list-table .upcomming-list #main-table-coins .color-btc-red {
+	color: #fb3c4f;
+}
+.coins-list-table .upcomming-list #main-table-coins .color-btc-green {
+	color: #50e3c2;
+}
+/*preloader styles*/
+
+#executivePre {
+    height: 50px; 
+    position: relative; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 9999;
+    display: none;
+    background-color: rgba(255,255,255, 0.7);
+}
+.preloader {    
+    -webkit-animation: load4 1.3s infinite linear;
+    animation: load4 1.3s infinite linear;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    max-width: 45px;
+    max-height: 45px;
+    /*-webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);*/
+  }
+  @-webkit-keyframes load4 {
+    0%{
+      transform: rotate(0deg);
+    }
+    12.5% {
+        transform: rotate(45deg);
+    }
+    25% {
+              transform: rotate(90deg);
+
+    }
+    37.5% {
+            transform: rotate(135deg);
+
+    }
+    50% {
+            transform: rotate(180deg);
+
+    }
+    62.5% {
+              transform: rotate(225deg);
+
+    }
+    75% {
+              transform: rotate(270deg);
+
+    }
+    87.5% {
+              transform: rotate(315deg);
+
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+  @keyframes load4 {
+    0% {
+      transform: rotate(0deg);
+    }
+    12.5% {
+        transform: rotate(45deg);
+    }
+    25% {
+              transform: rotate(90deg);
+
+    }
+    37.5% {
+            transform: rotate(135deg);
+
+    }
+    50% {
+            transform: rotate(180deg);
+
+    }
+    62.5% {
+              transform: rotate(225deg);
+
+    }
+    75% {
+              transform: rotate(270deg);
+
+    }
+    87.5% {
+              transform: rotate(315deg);
+
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+  .listing.coins-list .coins-list-table .upcomming-list .main-list tr td .bottom-short,
+  .listing.coins-list .coins-list-table .upcomming-list .main-list tr td .bottom-price {
+    display: none;
+  }
+    .tabs-line .tabs {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+
+    @media screen and (max-width: 767px){
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr th {
+            text-align: left;
+            padding: 10px 10px;
+            font-size: 12px;
+        }
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr th:first-child {
+            text-align: center;
+        }
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr .first-cell a {
+            line-height: 18px;
+        }
+        .newsParentBlock.coins-list .tabs-list.list-inline .tab-element {
+            width: 35%;
+            font-size: 12px;
+        }
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr td {
+            padding: 10px 10px;
+            font-size: 12px;
+        }
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr td .bottom-short {
+            display: block;
+            color: #adb5bd;
+        }
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr td .bottom-price {
+            display: block;
+        }
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr th span {
+            display: none;
+        }
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr th:nth-child(1),
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(1) {
+            width: 8%;
+            vertical-align: top;
+        }
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr th:nth-child(2),
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(2) {
+            width: 42%;
+        }
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr th:nth-child(3),
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(3) {
+            display: none;
+        }
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr th:nth-child(4),
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(4) {
+            display: none;
+        }
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr th:nth-child(5),
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(5) {
+            width: 25%;
+            text-align: left;
+            /*text-align: center;*/
+        }
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr th:nth-child(6),
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(6) {
+            display: none;
+        }
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr th:nth-child(7),
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(7) {
+            display: none;
+        }
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr th:nth-child(8),
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(8) {
+            width: 25%;
+            /*text-align: center;*/
+            vertical-align: top;
+        }
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr th:nth-child(9),
+        .listing.coins-list .coins-list-table .upcomming-list .main-list tr td:nth-child(9) {
+            display: none;
+        }
+    }
+
+  /*coins one styles*/
+    .main.profile-page.one-ico.one-coin .profile-content .ico-name .smartre-text {
+        width: 100%;
+    }
+    .profile-content.coins-one .right-sidebar .status tr td a {
+      word-break: break-all;
+    }
+  	.profile-content.coins-one .main-content .team table td:first-child {
+		width: 33%;
+  	}
+  	.profile-content.coins-one .main-content .team table td:nth-child(2) {
+  		width: 33%;
+  	}
+  	.one-ico.one-coin .page-navigation .breadcrumb .breadcrumb-item.active a{
+  		color: #ae916f;
+  		font-family: 'ProximaNova-Black', sans-serif;
+  	}
+  	.profile-content.coins-one .main-content tr th {
+		color: #adb5bd;
+		font-family: 'ProximaNova-Regular', sans-serif;
+		font-size: 15px;
+  	}
+  	.profile-page.one-coin .profile-content .ico-name .smartre-text .token-sale {
+		vertical-align: top;
+  	}
+  	.profile-page.one-coin .profile-content .ico-name .smartre-text .token-sale .short-coin {
+  		vertical-align: top;
+  		color: #adb5bd;
+  		font-size: 22px;
+  	}
+  	.profile-page.one-coin .profile-content .ico-name .smartre-text .token-sale .coin-rank {
+  		color: #868e96;
+  		font-size: 15px;
+  	}
+  	.profile-page.one-coin .profile-content .ico-name .smartre-text .token-sale .coin-name-wrapper {
+  		display: inline-block;
+  		vertical-align: top;
+  		width: calc(100% - 65px);
+    	line-height: 26px;
+  	}
+  	.profile-page.one-coin .profile-content .ico-name .smartre-text .token-sale .coin-price-wrapper {
+  		display: inline-block;
+  		vertical-align: top;        
+  	}
+  	.profile-page.one-coin .profile-content .coin-price-wrapper .coin-dollar {
+		color: #343a40;
+		font-size: 24px;
+		font-family: 'ProximaNova-Black', sans-serif;
+		vertical-align: top;
+  	}
+  	.profile-page.one-coin .profile-content .coin-price-wrapper .coin-change {
+  		font-size: 24px;
+		font-family: 'ProximaNova-Black', sans-serif;
+		vertical-align: top;
+		color: #50e3c2;
+		margin-left: 5px;
+  	}
+  	.profile-page.one-coin .profile-content .coin-price-wrapper .coin-bottom {
+  		font-size: 16px;
+  		color: #adb5bd;
+  	}
+  	.profile-page.one-coin .profile-content .coin-price-wrapper .coin-bottom .coin-bottom-percent {
+  		color: #50e3c2;
+  	}
+  	.profile-content.coins-one .main-content .team {
+  		padding-top: 10px;
+  	}
+  	.profile-page.one-coin .profile-content .coin-price-wrapper .coin-info {
+  		display: inline-block;
+  	}
+  	.profile-page.one-coin .profile-content .coin-price-wrapper select {
+  		-webkit-appearance: none;
+	    appearance: none;
+	    -moz-appearance: none;
+	    background: #fff url(/images/down-arrow-footer.png) no-repeat;
+	    background-size: 11px;
+	    background-position: right 10px center;
+	    cursor: pointer;
+	    height: inherit;
+	    width: 86px;
+	    height: 40px;
+	    padding-left: 10px;
+	    border-radius: 2px;
+		background-color: #ffffff;
+		border: solid 1px #ced4da;
+		color: #adb5bd;
+		vertical-align: top;
+    	margin-top: 10px;
+    	margin-left: 10px;
+  	}
+  	.profile-page.one-coin .profile-content .coin-price-wrapper select option {
+  		cursor: pointer;
+  	}
+  	.profile-page.one-coin .coins-one .ico-name {
+  		padding-right: 0px;
+  	}
+  	.profile-content.coins-one .main-content .team table td {
+  		color: #4a4a4a;
+  		font-size: 16px;
+  	}
+  	.profile-content.coins-one .right-sidebar .status tr td {
+  		box-shadow: none;
+  		padding-bottom: 0px;
+        padding-right: 0px;
+  	}
+  	.profile-content.coins-one .right-sidebar .status tr td:first-child {
+  		width: 22%;
+  	}
+  	.profile-content.coins-one .main-content .trading-markets {
+  		margin-top: 40px;
+  	}
+    .profile-content.coins-one .right-sidebar .status tr td:nth-child(2) {
+        padding-left: 2px;
+    }
+
+    /*tabs*/
+    .tabs-list.list-inline .coin-tab-element.active {
+        border: 1px solid #dee2e6;
+        border-bottom: none;
+        color: #ae916f;
+    }
+    .tabs-list.list-inline .coin-tab-element {
+        display: inline-block;
+        /* padding: 15px 55px; */
+        margin-bottom: 0px;
+        position: relative;
+        width: 24%;
+        height: 50px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding-left: 0px;
+        line-height: 50px;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 1.2px;
+        color: #4a4a4a;
+        text-align: center;
+    }
+    .tabs-list.list-inline .coin-tab-element.active::after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+        height: 10px;
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        background: #fff;
+    }
+    .one-ico.one-coin .tabs-line {
+        border-bottom: 1px solid #dee2e6;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    .one-ico.one-coin .tabs-list.list-inline {
+        padding-left: 0px;
+    }
+    .one-ico.one-coin .coins-tab {
+      display: none;
+    }
+    .coins-tab .smallBlock {
+      margin-bottom: 15px;
+    }
+    .coins-one .main-content .team.mobile {
+      display: none;
+    }
+    .profile-page.one-coin .profile-content.coins-one .main-content .trading-title {
+        margin-bottom: 0px;
+        color: #343a40;
+        font-size: 24px;
+        font-family: 'ProximaNova-Black', sans-serif;
+    }
+    .profile-page.one-coin table th, .profile-page.one-coin table td:first-child {
+        font-family: 'ProximaNova-Regular', sans-serif;
+        font-weight: normal;
+    }
+    
+    .one-coin .coins-one .tabs-line .tabs {
+        margin-top: 45px;
+    }
+    .coins-one .main-content .table-bottom {
+        display: block;
+        color: #adb5bd;
+        font-family: 'ProximaNova-Regular', sans-serif;
+    }
+    .overview .overview-block {
+        padding-top: 10px;
+        font-family: 'ProximaNova-Regular', sans-serif;
+        font-weight: normal;
+        color: #454B50;
+    }
+    .main.profile-page.one-ico.one-coin .fixed-sidebar {
+        height: auto;
+    }
+    .coins-one .trading-markets .trading-table-wrapper {
+        overflow-y: scroll;
+        max-height: 580px;
+    }
+    .coins-one .coin-price-wrapper .price-type {
+        font-size: 24px;
+        text-align: left;
+        color: #adb5bd;
+        display: inline-block;
+        padding-top: 2px;
+        vertical-align: top;
+        padding-left: 10px;
+    }
+    .profile-page.one-coin .profile-content .ico-name img {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+    }
+
+
+    @media screen and (max-width: 992px){
+        .coins-tab .row .col-12 {
+            padding-bottom: 0px;
+        }
+    }
+
+    @media screen and (max-width: 767px){
+        .main.profile-page.one-ico.one-coin .main-content {
+            padding-left: 0px;
+        }
+        .one-coin .coins-one .tabs-line .tabs {
+            margin-top: 25px;
+        }
+        .coins-one .coin-price-wrapper {
+            padding-left: 10px;
+            padding-right: 10px;        
+        }
+        .tabs-list.list-inline .coin-tab-element {
+            width: 32%;
+            font-size: 12px;
+        }
+        .coins-one .main-content .team {
+            display: none;
+        }
+        .coins-one .main-content .team.mobile {
+            display: block;
+        }
+        .profile-page.one-coin .profile-content.coins-one .main-content .team.mobile table tr td {
+            width: 50%;
+        }
+        .main.profile-page.one-ico.one-coin .fixed-title {
+            z-index: -1;
+        }
+        .profile-page.one-coin .profile-content.coins-one .main-content .team.mobile table tr th {
+            font-size: 10px;
+        }
+        .profile-page.one-coin .profile-content.coins-one .main-content .team.mobile table tr td {
+            font-size: 12px;
+        }
+        .profile-page.one-coin .profile-content.coins-one .main-content .trading-markets th,
+        .profile-page.one-coin .profile-content.coins-one .main-content .trading-markets td {
+            font-size: 10px;
+            padding: 5px 5px;
+        }
+        .coins-one .fixed-title.right-sidebar .ico-name {
+            padding-left: 0px;
+        }
+        .profile-page.one-coin .profile-content .coin-price-wrapper select {
+            margin-left: 0px;
+        }
+        .profile-page.one-coin .profile-content .coin-price-wrapper .coin-dollar {
+            font-size: 22px;
+        }
+        .profile-page.one-coin .profile-content .coin-price-wrapper .coin-change {
+            font-size: 22px;
+        }
+        .profile-page .profile-content .right-sidebar .sidebar-content {
+            padding: 15px 15px;
+        }
+        .profile-page.one-coin .profile-content.coins-one .main-content .team.mobile table:first-child {
+            margin-bottom: 20px;
+        }
+    }
+

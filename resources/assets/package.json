@@ -1,0 +1,21 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "artemreznichkov",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-minify-css": "^1.1.0",
+    "gulp-uglify": "^2.0.0",
+    "normalize.css": "^5.0.0",
+    "gulp-watch": "^4.2.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^3.4.0"
+  }
+}

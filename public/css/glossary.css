@@ -1,0 +1,288 @@
+
+.glossary-header .headerBlock .tabs-line .search #show-search {
+	width: 25px;
+	cursor: pointer;
+}
+
+.glossary-header .headerBlock {
+	position: relative;
+}
+.glossary-header .headerBlock .tabs-line {
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+}
+.glossary-header .description-block p {
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+}
+.alphabet-wrapper .alphabet {
+	text-align: center;
+}
+.alphabet-wrapper .alphabet .letter {
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	line-height: 34px;
+	border-radius: 2px;
+  	background-color: #ffffff;
+  	border: solid 1px #ced4da;
+  	margin-right: 5px;
+  	cursor: pointer;
+}
+.alphabet-wrapper .alphabet .letter:hover {
+	background-color: #ced4da;
+}
+.alphabet-wrapper .alphabet .letter.active {
+	background-color: #ced4da;
+}
+.glossary-container .upcomming-list tbody .glossary-tr td{
+	border-top: solid 2px #ff8931;
+}
+.glossary-container .upcomming-list tbody .glossary-tr:last-child td {
+	border-bottom: solid 2px #ff8931;
+}
+.glossary-container .upcomming-list tbody .glossary-tr {
+	box-shadow: none;
+}
+.glossary-container .upcomming-list tbody .glossary-tr td:first-child {
+	width: 80px;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 35px;
+}
+.glossary-container .upcomming-list tbody .glossary-tr td:first-child span{
+	font-size: 50px;
+	font-family: 'ProximaNova-Black', sans-serif;
+}
+.glossary-container .upcomming-list tbody .glossary-tr td {
+	width: 91%;
+	box-shadow: none;
+}
+
+.glossary-container .upcomming-list tbody .glossary-tr .glossary-element .glossary-title {
+	color: #3f4245;
+	font-size: 32px;
+	font-family: 'ProximaNova-Light', sans-serif;
+
+}
+
+.glossary-container .upcomming-list tbody .glossary-tr .glossary-element:not(:last-child) {
+	border-bottom: solid 1px #ced4da;
+}
+.glossary-container .upcomming-list tbody .glossary-tr .glossary-element .glossary-title {
+	position: relative;
+}
+.glossary-container .upcomming-list tbody .glossary-tr .glossary-element .glossary-title .glossary-words {
+	position: absolute;
+	right: 0;
+	font-size: 15px;
+	line-height: 0px;
+    top: 50%;
+}
+.glossary-container .upcomming-list tbody .glossary-tr .glossary-element .glossary-title .glossary-word {
+	padding: 5px 10px;
+	background-color: #fcfcfc;
+	color: #454b50;
+	cursor: pointer;
+	border-radius: 2px;
+}
+.glossary-container .upcomming-list tbody .glossary-tr .glossary-element .glossary-title .glossary-word:hover {
+	background-color: #ced4da;
+}
+.glossary-container .upcomming-list tbody .glossary-tr:hover {
+	background-color: white;
+}
+
+.alphabet-wrapper .search-result-block .search-title {
+	font-family: 'ProximaNova-Black', sans-serif;
+}
+.alphabet-wrapper .search-result-block {
+	margin-left: 25px;
+}
+.glossary-header .search #search {
+	padding-left: 10px;
+    border: none;
+}
+.glossary-header .search .categories-dropdown {
+	cursor: pointer;
+}
+.middleInfoBlock.glossary-container {
+	padding-top: 0px;
+}
+.glossary-header .row.m--8,
+.glossary-header .row {
+	margin-bottom: 0px;
+}
+.alphabet-wrapper {
+	padding: 15px 0px;
+	position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    z-index: 99;
+    background: white;
+}
+.glossary-header .search-block .dropdown-menu.categories {
+	position: absolute;
+	padding: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.glossary-header .search-block .dropdown-menu.categories li {
+	margin-bottom: 10px;
+    cursor: pointer;
+}
+.glossary-header .search-block .dropdown-menu.categories li:hover {
+	background-color: #d8d8d8;
+}
+.glossary-header .search-block .dropdown-menu.categories li a {
+	font-family: 'ProximaNova', sans-serif;
+    font-size: 15px;
+    color: #343a40;
+    padding-right: 10px;
+}
+.alphabet-wrapper .search-result-block .search-title .inputed-word {
+	color: #343a40;
+	font-size: 22px;
+	font-family: 'ProximaNova-Light', sans-serif;
+}
+.alphabet-wrapper .search-result-block .search-title .delete-link {
+	font-size: 18px;
+    margin-left: 10px;
+    color: #adb5bd;
+    cursor: pointer;
+}
+
+#glossaryPre {
+    height: 100%; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    display: block;
+    z-index: 9999;
+    display: none;
+    background-color: rgba(255,255,255, 0.7);
+}
+.preloader {    
+    -webkit-animation: load4 1.3s infinite linear;
+    animation: load4 1.3s infinite linear;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    /*-webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);*/
+  }
+  @-webkit-keyframes load4 {
+    0%{
+      transform: rotate(0deg);
+    }
+    12.5% {
+        transform: rotate(45deg);
+    }
+    25% {
+              transform: rotate(90deg);
+
+    }
+    37.5% {
+            transform: rotate(135deg);
+
+    }
+    50% {
+            transform: rotate(180deg);
+
+    }
+    62.5% {
+              transform: rotate(225deg);
+
+    }
+    75% {
+              transform: rotate(270deg);
+
+    }
+    87.5% {
+              transform: rotate(315deg);
+
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+  @keyframes load4 {
+    0% {
+      transform: rotate(0deg);
+    }
+    12.5% {
+        transform: rotate(45deg);
+    }
+    25% {
+              transform: rotate(90deg);
+
+    }
+    37.5% {
+            transform: rotate(135deg);
+
+    }
+    50% {
+            transform: rotate(180deg);
+
+    }
+    62.5% {
+              transform: rotate(225deg);
+
+    }
+    75% {
+              transform: rotate(270deg);
+
+    }
+    87.5% {
+              transform: rotate(315deg);
+
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+
+
+
+@media screen and (max-width: 767px){
+	.glossary-container .upcomming-list tbody .glossary-tr .glossary-element .glossary-title .glossary-words {
+		/*display: none;*/
+		position: static;
+		line-height: 30px;
+		padding-bottom: 10px;
+	}
+	.alphabet-wrapper {
+		position: static;
+	}
+	.glossary-header .search-block .dropdown-menu.categories {
+
+	}
+}
+
+
+@media screen and (max-width: 460px){
+
+	.glossary-header .headerBlock .search-block {
+		padding-left: 0px;
+    	padding-right: 0px;
+	}
+	.glossary-header .headerBlock .search-block #search {
+		max-width: 150px;
+	}
+	.alphabet-wrapper .search-result-block .search-title {
+		font-size: 20px;
+	}
+	.alphabet-wrapper .search-result-block .search-title .inputed-word {
+		font-size: 16px;
+	}
+	.glossary-header .description-block p {
+		padding-bottom: 20px;
+	}
+	.alphabet-wrapper .alphabet {
+		padding-top: 10px;
+	}
+
+}

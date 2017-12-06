@@ -1,0 +1,80 @@
+.mainArticleBlock .article-tags .tags-title {
+	font-family: 'ProximaNova-Regular', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.31;
+    text-align: left;
+    color: #454b50;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+.mainArticleBlock .article-tags .tags-title.only-tags {
+	margin-right: 70px;
+}
+
+.mainArticleBlock .article-tags .executives-element img {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 10px;/*
+	margin-left: 20px;*/
+}
+.mainArticleBlock .article-tags .tags-title.only-executive {
+	margin-right: 20px;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 15px;
+}
+.mainArticleBlock .article-tags .executive-name {
+	color: #343a40;
+	font-size: 15px;
+}
+.mainArticleBlock .sideForm.fadeUpDowpForm {
+	z-index: 9999;
+	background-color: white;
+}
+.mainArticleBlock .smallBlocks .titleCommentsBlock {
+	margin-top: 3rem;
+}
+.mainArticleBlock .smallBlocks.you-like-block {
+	padding-right: 30px;
+}
+.mainArticleBlock .smallBlocks.you-like-block .you-like-element {
+	padding: 6px 8px;
+}
+.mainArticleBlock .article-tags .executives-element {
+	display: inline-block;
+	margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.mainArticleBlock .article-tags .executives-wraper {
+	display: inline-block;
+	width: calc(100% - 130px);
+}
+
+ /*media queries*/
+
+ @media screen and (max-width: 767px){
+ 	.mainArticleBlock .smallBlocks.you-like-block {
+		padding-right: 5px;
+	}
+	.mainArticleBlock .smallBlocks.you-like-block .you-like-element {
+		padding: 0px 8px;
+	}
+ }
+
+ @media screen and (max-width: 460px){
+	.mainArticleBlock .fadeUpDowpForm.hidden-md-down {
+		display: none;
+	}
+	.mainArticleBlock .article-tags .executives-element img {
+		/*margin-right: 10px;*/
+    	/*margin-left: 10px;*/
+    	/*margin-top: 5px;*/
+	}
+ })

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="11px" viewBox="0 0 11 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/increase-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-1109.000000, -660.000000)">
+            <g id="ic/increase-arrow" transform="translate(1115.000000, 666.000000) rotate(-360.000000) translate(-1115.000000, -666.000000) translate(1105.000000, 656.000000)">
+                <polygon id="Shape" points="0 0 19.8757764 0 19.8757764 20 0 20"></polygon>
+                <polygon id="Shape" fill="#00CEA0" fill-rule="evenodd" transform="translate(10.103520, 9.666667) scale(1, -1) rotate(-45.000000) translate(-10.103520, -9.666667) " points="16.7287785 9.66666667 15.5610766 8.49166667 10.931677 13.1416667 10.931677 3 9.27536232 3 9.27536232 13.1416667 4.65424431 8.48333333 3.47826087 9.66666667 10.1035197 16.3333333"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

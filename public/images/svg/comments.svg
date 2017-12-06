@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/comments</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="News" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="News---Article" transform="translate(-788.000000, -559.000000)">
+            <g id="Group" transform="translate(0.000000, 529.000000)">
+                <g id="components/share-copy-5" transform="translate(786.000000, 28.000000)">
+                    <g id="ic/comments">
+                        <polygon id="Bounds" points="1 0 17 0 17 16 1 16"></polygon>
+                        <rect id="Rectangle" fill="#3F4245" fill-rule="evenodd" x="2" y="2" width="12" height="9" rx="2"></rect>
+                        <polygon id="Path-4" fill="#3F4245" fill-rule="evenodd" points="5 10 5 14.0164296 11 10"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

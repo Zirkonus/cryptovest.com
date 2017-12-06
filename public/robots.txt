@@ -1,0 +1,5 @@
+User-agent: Googlebot-News 
+Disallow: /ico/
+Disallow: /reviews/
+Disallow: /education/
+Disallow: /glossary/

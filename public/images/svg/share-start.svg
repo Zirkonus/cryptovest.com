@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="12px" viewBox="0 0 11 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/share</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="components/share-white" transform="translate(-2.000000, -5.000000)">
+            <g id="ic/share-inv" transform="translate(0.000000, 3.000000)">
+                <circle id="Oval" fill="#343A40" fill-rule="evenodd" cx="11" cy="4" r="2"></circle>
+                <circle id="Oval-Copy" fill="#343A40" fill-rule="evenodd" cx="11" cy="12" r="2"></circle>
+                <circle id="Oval-Copy-2" fill="#343A40" fill-rule="evenodd" cx="4" cy="8" r="2"></circle>
+                <polyline id="Path-2" stroke="#343A40" stroke-width="1" points="11.033285 3.95532227 3.94862639 8 11.033285 12.0447442"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

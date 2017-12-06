@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>ontop</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="News" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="News---Article" transform="translate(-54.000000, -795.000000)">
+            <g id="ontop" transform="translate(54.000000, 795.000000)">
+                <circle id="Oval-2" fill="#E9ECEF" cx="20" cy="20" r="20"></circle>
+                <g id="ic/arrow-top" transform="translate(6.666667, 6.666667)">
+                    <polygon id="Shape" points="0 0 26.8322981 0 26.8322981 27 0 27"></polygon>
+                    <polygon id="Shape" fill="#343A40" fill-rule="evenodd" transform="translate(13.639752, 13.050000) rotate(180.000000) translate(-13.639752, -13.050000) " points="22.5838509 13.05 21.0074534 11.46375 14.757764 17.74125 14.757764 4.05 12.5217391 4.05 12.5217391 17.74125 6.28322981 11.4525 4.69565217 13.05 13.6397516 22.05"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

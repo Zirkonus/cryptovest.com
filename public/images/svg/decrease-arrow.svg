@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/decrease-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-1017.000000, -565.000000)">
+            <g id="ic/decrease-arrow" transform="translate(1023.000000, 572.000000) rotate(-360.000000) translate(-1023.000000, -572.000000) translate(1011.000000, 560.000000)">
+                <polygon id="Shape" points="0 0 23.8509317 0 23.8509317 24 0 24"></polygon>
+                <polygon id="Shape" fill="#FF2944" fill-rule="evenodd" transform="translate(12.124224, 11.600000) rotate(-315.000000) translate(-12.124224, -11.600000) " points="20.0745342 11.6 18.6732919 10.19 13.1180124 15.77 13.1180124 3.6 11.1304348 3.6 11.1304348 15.77 5.58509317 10.18 4.17391304 11.6 12.1242236 19.6"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

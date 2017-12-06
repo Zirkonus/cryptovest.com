@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="12px" viewBox="0 0 8 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/more</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="components/section-header" transform="translate(-1120.000000, -71.000000)">
+            <g id="ic/more" transform="translate(1112.000000, 65.000000)">
+                <g id="ic_chevron_right">
+                    <polygon id="Bounds" points="0 0 24 0 24 24 0 24"></polygon>
+                    <polygon id="Icon" fill="#3F4245" points="10 6 8.59 7.41 13.17 12 8.59 16.59 10 18 16 12"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
